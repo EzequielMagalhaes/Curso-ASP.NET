@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\zekes\\OneDrive\\\u00C1rea de Trabalho\\PC - ZEKIEL\\Curso ASP.NET\\_01_HelloWorld\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE14B5A8-6D5B-4B7F-8B8A-572D56AD00DC}|_01_HelloWorld\\_01_HelloWorld.csproj|c:\\users\\zekes\\onedrive\\\u00E1rea de trabalho\\pc - zekiel\\curso asp.net\\_01_helloworld\\_01_helloworld\\_01_formulariohelloworld.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EE14B5A8-6D5B-4B7F-8B8A-572D56AD00DC}|_01_HelloWorld\\_01_HelloWorld.csproj|solutionrelative:_01_helloworld\\_01_formulariohelloworld.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_01_FormularioHelloWorld.aspx",
+              "DocumentMoniker": "C:\\Users\\zekes\\OneDrive\\\u00C1rea de Trabalho\\PC - ZEKIEL\\Curso ASP.NET\\_01_HelloWorld\\_01_HelloWorld\\_01_FormularioHelloWorld.aspx",
+              "RelativeDocumentMoniker": "_01_HelloWorld\\_01_FormularioHelloWorld.aspx",
+              "ToolTip": "C:\\Users\\zekes\\OneDrive\\\u00C1rea de Trabalho\\PC - ZEKIEL\\Curso ASP.NET\\_01_HelloWorld\\_01_HelloWorld\\_01_FormularioHelloWorld.aspx",
+              "RelativeToolTip": "_01_HelloWorld\\_01_FormularioHelloWorld.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-14T14:56:48.039Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
