@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Web.config" />
     <Content Include="_02_Formulario_Componentes.aspx" />
+    <Content Include="_02_Formulario_Melhorado.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,6 +79,13 @@
     </Compile>
     <Compile Include="_02_Formulario_Componentes.aspx.designer.cs">
       <DependentUpon>_02_Formulario_Componentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_02_Formulario_Melhorado.aspx.cs">
+      <DependentUpon>_02_Formulario_Melhorado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_02_Formulario_Melhorado.aspx.designer.cs">
+      <DependentUpon>_02_Formulario_Melhorado.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
