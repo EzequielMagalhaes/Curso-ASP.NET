@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="_01_Formulario_Componentes.aspx.cs" Inherits="_02_Button_TextBox_DropDownList._02_Formulario_Componentes" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="_02_Formulario_Componentes.aspx.cs" Inherits="_02_Button_TextBox_DropDownList._02_Formulario_Componentes" %>
 
 <!DOCTYPE html>
 
@@ -19,17 +19,17 @@
                 <tr>
                     <td><asp:TextBox ID="txtSite" runat="server" Width="370px"></asp:TextBox></td>
                     <td><asp:TextBox ID="txtEndereco" runat="server" Width="370px"></asp:TextBox></td>
-                    <td>
-                        <asp:Button ID="btInserir" runat="server" Text="Inserir site" OnClick="btInserir_Click" /></td>
+                    <td><asp:Button ID="btInserir" runat="server" Text="Inserir site" OnClick="btInserir_Click" /></td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:DropDownList ID="dlSite" runat="server">
-                            <asp:ListItem Value="1">teste1</asp:ListItem>
-                        </asp:DropDownList>
+                        <asp:DropDownList ID="dlSite" runat="server" Width="378px"></asp:DropDownList>
                     </td>
-                    <td></td>
-                    <td></td>
+                    <td>
+                        <asp:ListBox ID="lbEndereco" runat="server" Width="378px" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged"></asp:ListBox></td>
+                    <td>
+                        <asp:Button ID="btSelecionar" runat="server" Text="Selecionar" OnClick="btSelecionar_Click" />
+                    </td>
                 </tr>
             </table>
         </div>

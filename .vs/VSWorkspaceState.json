@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_01_HelloWorld\\_01_HelloWorld",
     "\\_02_Button_TextBox_DropDownList",
     "\\_02_Button_TextBox_DropDownList\\_02_Button_TextBox_DropDownList"
   ],
-  "SelectedNode": "\\_02_Button_TextBox_DropDownList\\_02_Button_TextBox_DropDownList\\_01_Formulario_Componentes.aspx.cs",
+  "SelectedNode": "\\_02_Button_TextBox_DropDownList\\_02_Button_TextBox_DropDownList\\_02_Formulario_Componentes.aspx",
   "PreviewInSolutionExplorer": false
 }
