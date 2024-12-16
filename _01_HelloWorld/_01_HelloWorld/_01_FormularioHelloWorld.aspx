@@ -5,10 +5,10 @@
     protected void btExecutar_Click(object sender, EventArgs e)
     {
         if(txtMsg.Text == "") {
-            lbTitulo.Text = "Hello World - Primeira aula";
+            lbTitulo.Text = "Você não digitou seu nome";
         }
         else{
-            lbTitulo.Text = txtMsg.Text;
+            lbTitulo.Text = "<a1>Olá " +txtMsg.Text+ ", seja bem-vindo!!</a1>";
         }
     }
 </script>
@@ -21,7 +21,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="lbTitulo" runat="server" Text="Escreva o que deseja informar na caixa de texto"></asp:Label><br/>
+            <asp:Label ID="lbTitulo" runat="server" Text="Escreva o seu nome na caixa de texto"></asp:Label><br/>
             <asp:TextBox ID="txtMsg" runat="server" ></asp:TextBox>
             <asp:Button ID="btExecutar" runat="server" Text="Executar" OnClick="btExecutar_Click" />
         </div>
