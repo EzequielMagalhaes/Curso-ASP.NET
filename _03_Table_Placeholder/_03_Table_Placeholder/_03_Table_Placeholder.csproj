@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="Web.config" />
     <Content Include="_03_Formulario_Tabuada.aspx" />
+    <Content Include="_07_Formulario_Tabela.aspx" />
+    <Content Include="_08_Formulario_Placeholder.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,6 +80,20 @@
     </Compile>
     <Compile Include="_03_Formulario_Tabuada.aspx.designer.cs">
       <DependentUpon>_03_Formulario_Tabuada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_07_Formulario_Tabela.aspx.cs">
+      <DependentUpon>_07_Formulario_Tabela.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_07_Formulario_Tabela.aspx.designer.cs">
+      <DependentUpon>_07_Formulario_Tabela.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_08_Formulario_Placeholder.aspx.cs">
+      <DependentUpon>_08_Formulario_Placeholder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_08_Formulario_Placeholder.aspx.designer.cs">
+      <DependentUpon>_08_Formulario_Placeholder.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
