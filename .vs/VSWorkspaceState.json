@@ -1,6 +1,14 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     ""
   ],
+=======
+    "",
+    "\\_02_Button_TextBox_DropDownList",
+    "\\_02_Button_TextBox_DropDownList\\_02_Button_TextBox_DropDownList"
+  ],
+  "SelectedNode": "\\_02_Button_TextBox_DropDownList\\_02_Button_TextBox_DropDownList\\_02_Formulario_Componentes.aspx",
+>>>>>>> 3e0d266 (Salvando material)
   "PreviewInSolutionExplorer": false
 }
